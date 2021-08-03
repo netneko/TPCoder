@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!--Link a los archivo CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Kali Orexi </title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- logo -->
+                <a class="navbar-brand" href="index.html"><img src="img/logotransp.png" alt="logonavbar"></a>
+                <!-- toggle responsive -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- fin del toggle responsive -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="pages/Nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="pages/Productos.html">Productos</a>
+                        <a class="nav-link" href="pages/ideasytips.html">Ideas & Tips</a>
+                        <a class="nav-link" href="pages/Contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav><!-- Fin de la navbar -->
+    </header>
+    <main>
+        <section>
+            <!--Carrousel de fotos pero por ahora pongo solo una foto-->
+            <div class="carrousel">
+                <div class="container">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/carrousel/bEspecias.jpeg" class="d-block w-100" alt="Conservas">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/carrousel/bPaladarNoir.png" class="d-block w-100" alt="Vodkas">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/carrousel/bRubs.jpeg" class="d-block w-100" alt="Sales">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/carrousel/bannerCajasGourmet.jpeg" class="d-block w-100" alt="Sales">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--Algo de texto-->
+            <p class="textoMain">
+                Sales saborizadas a la vieja usanza, sin conservantes ni colorantes artificiales. Conservas, sazonadores
+                para carnes y vodkas polacos.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <!-- padre a -->
+        <div class="redesSociales">
+            <!-- padre b-->
+            <!-- hijo de a -->
+            <p class="redes">Nuestras Redes</p><!-- hijo de b -->
+            <a href="https://twitter.com/KaliOrexis?s=20"><img src="icons/twitter.png" alt="twitter"
+                    class="twitter"></a> <!-- hijo de b -->
+            <a href="https://www.facebook.com/Kali%CC%81-O%CC%81rexi-Conservas-y-Sales-102110621640288"><img
+                    src="icons/facebook.png" alt="facebook" class="facebook"></a> <!-- hijo de b -->
+            <a href="#"><img src="icons/whatsapp.png" alt="whatsapp" class="whatsapp"></a> <!-- hijo de b -->
+        </div>
+        <p>Esto seria una frase pero no me decidi por cual</p>
+        <p class="copy">Copyright 2021 Kali Orexi - por Ceci Zucchino</p> <!-- hijo de c -->
+    </footer>
+</body>
+
+</html>
