@@ -159,9 +159,7 @@ footer {
   }
 }
 
-
-
-
+/* --------------------------------------------------- */
 /* MOBILE S*/
 @media (max-width:375px) and (min-width:320px) {
   .container-fluid {
@@ -173,18 +171,22 @@ footer {
 
   .text {
     position: absolute;
-    color: #04232d;
-    top: 12%;
+    color: #062333;
+    top: 10%;
     left: 50%;
     font-size: 2rem;
     transform: translate(-50%, -50%);
   }
 
+  .img-fluid {
+    width: 100%;
+    height: 20rem;
+  }
   .textoNosotros {
     color: #174E6D;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
-    margin: 2rem 1rem 2rem 1rem;
+    margin:0.5rem 0.7rem 2rem 0.7rem;
   }
 
   footer {
