@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #f8f9fa;
+}
+main
+{
+  margin-bottom:2rem;
+}
+.container-fluid {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 8rem;
+}
+
+.navbar-nav {
+  gap: 6rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0B4666;
+}
+
+.navbar-brand img {
+  width: 8em;
+  height: 3em;
+  margin:0;
+}
+
+/* -------------------------------------------------FIN DE LO COMUN-------------------------------------------------*/
+
+h3 {
+  color: #0B4666;
+  display: block;
+  margin: auto;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.textoRecetas {
+  text-align: center;
+  color: #437194;
+  margin: 3em 3em;
+}
+
+
+/* ------------GRID---------------- */
+img {
+  width: 19em;
+  height: 19em;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 0.1rem;
+  padding: 0.1rem;
+  grid-auto-flow: dense;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+
+img:hover {
+  filter: opacity(.5);
+}
+
+
+/* ---------------------------FOOTER-------------------------------------------------------------- */
+/* Footer con FLEX */
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  background-image: linear-gradient(to left, #628eac, #053047);
+  color: #D8E2E7;
+  padding: 1rem 0 0 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.redesSociales {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.redesSociales a {
+  display: inline-block;
+  padding: 0.1rem;
+}
+
+.redesSociales img {
+  height: 1.2em;
+  width: 1.2em;
+  margin: -1px 0px 2px 1px;
+}
+
+/* ------------------------------MEDIA QUERIES ---------------------------------------- */
+/* MOBILE S*/
+@media (max-width:375px) and (min-width:320px) {
+  .container-fluid {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    background-color: #437194;
+    color: #D8E2E7;
+    padding: 1rem 0rem 0rem 0rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .redesSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .redesSociales a {
+    display: inline-block;
+    padding: 0.1rem;
+  }
+
+  .redesSociales img {
+    height: 1em;
+    width: 1em;
+    display: block;
+    margin: auto;
+    align-items: center;
+  }
+
+  p {
+    font-size: 0.8rem;
+    display: block;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+  }
+
+  .redes {
+    display: none;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 0;
+    grid-auto-flow: dense;
+  }
+
+  img {
+    width: 15em;
+    height: 15em;
+  }
+}
+
+
+/* --------------TABLET----------------------- */
+@media (max-width: 768px) and (min-width: 425px) {
+  h3 {
+    color: #0B4666;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .textoRecetas {
+    text-align: center;
+    color: #437194;
+    font-size: 1.5em;
+    margin: 3em 3em;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 0;
+    grid-auto-flow: dense;
+  }
+
+  img {
+    width: 14em;
+    height: 14em;
+  }
+}
+
+/* LAPTOP */
+@media (max-width: 992px) {
+  h3 {
+    color: #0B4666;
+    display: block;
+    margin: auto;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .textoRecetas {
+    text-align: center;
+    color: #437194;
+    font-size: 1.5em;
+    margin: 3em 3em;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 0;
+    grid-auto-flow: dense;
+  }
+
+  img {
+    width: 17em;
+    height: 17em;
+  }
+}

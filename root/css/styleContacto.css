@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 8rem;
+}
+
+.navbar-nav {
+  gap: 6rem;
+}
+
+.navbar-nav a {
+  color: #0B4666;
+}
+
+.navbar-brand img {
+  width: 8em;
+  height: 3em;
+  margin: 0;
+}
+
+/*------------------------------------------------FIN DE LO COMUN---------------------------------------------------*/
+
+h3 {
+  color: #0B4666;
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 4rem 0.7rem 0 6rem;
+}
+
+/*------------------------------------------------FORMULARIO--------------------------------------------------------*/
+
+/* La caja del formulario */
+.formulario {
+  border: solid 0.5rem #628eac;
+  border-radius: 2%;
+  background-color: #628eac;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: whitesmoke;
+  font-size: 0.9rem;
+  margin-bottom: 12.3rem;
+  margin-top: 1rem;
+}
+
+.comentarios {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  color: rgb(211, 211, 211);
+}
+
+.boton {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
+  background-color: #4d7891;
+  border: #4d7891;
+  font-size: 0.8rem;
+}
+
+/* ---------------------------FOOTER-------------------------------------------------------------- */
+/* Footer con FLEX */
+
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  background-image: linear-gradient(to left, #628eac, #053047);
+  color: whitesmoke;
+  padding: 1rem 0 0 0rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.redesSociales {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.redesSociales a {
+  display: inline-block;
+  padding: 0.1rem;
+}
+
+.redesSociales img {
+  height: 1.2em;
+  width: 1.2em;
+  margin: -1px 0px 2px 1px;
+}
+
+/* ------------------------------MEDIA QUERIES ---------------------------------------- */
+/* --------------TABLET----------------------- */
+@media (max-width: 768px) and (min-width: 425px) {
+  .contact-form {
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 1rem 0.7rem 1rem 0;
+    padding-top: 2em;
+  }
+
+  .formulario {
+    border: solid 0.5rem #628eac;
+    border-radius: 2%;
+    background-color: #628eac;
+    padding: 1rem 0.7rem 1rem 0.7rem;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin: 3rem 0.5rem 14.3rem 0.5rem;
+  }
+
+  .boton {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
+    background-color: #4d7891;
+    border: #4d7891;
+    font-size: 1.7rem;
+  }
+
+  .redesSociales a {
+    display: inline-block;
+    padding: 0.1rem;
+  }
+
+  .redesSociales img {
+    height: 1em;
+    width: 1em;
+    display: block;
+    margin: auto;
+    align-items: center;
+  }
+
+  p {
+    font-size: 0.8rem;
+    display: block;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+  }
+
+  .redes {
+    display: none;
+  }
+}
+
+
+
+
+/* MOBILE S*/
+@media (max-width:375px) and (min-width:320px) {
+  .container-fluid {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 0;
+  }
+
+  .formulario {
+    border: solid 0.5rem #628eac;
+    border-radius: 2%;
+    background-color: #628eac;
+    padding: 1rem 0.7rem 1rem 0.7rem;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    margin: 3rem 0.5rem 14.3rem 0.5rem;
+  }
+
+  .boton {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
+    background-color: #4d7891;
+    border: #4d7891;
+    font-size: 1.1rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    background-color: #437194;
+    color: #D8E2E7;
+    padding: 1rem 0rem 0rem 0rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .redesSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .redesSociales a {
+    display: inline-block;
+    padding: 0.1rem;
+  }
+
+  .redesSociales img {
+    height: 1em;
+    width: 1em;
+    display: block;
+    margin: auto;
+    align-items: center;
+  }
+
+  p {
+    font-size: 0.8rem;
+    display: block;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+  }
+
+  .redes {
+    display: none;
+  }
+}

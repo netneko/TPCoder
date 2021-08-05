@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 8rem;
+}
+
+.navbar-nav {
+  gap: 6rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0B4666;
+}
+
+.navbar-brand img {
+  width: 8em;
+  height: 3em;
+  margin:0;
+}
+
+/* --------------------------------------------------FIN DE LO COMUN------------------------------------------------- */
+
+h3 {
+  color: #597c8f;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* FOTO */
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+/* cards */
+.container__cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card-body {
+  color: #0B4666;
+}
+
+
+.list-group-item {
+  color: #265672;
+}
+
+/* ---------------------------FOOTER-------------------------------------------------------------- */
+/* Footer con FLEX */
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  background-image: linear-gradient(to left, #628eac, #053047);
+  color: #D8E2E7;
+  padding: 1rem 0rem 0rem 0rem;
+  width: 100%;
+  position:relative;
+  bottom: 0;
+}
+
+.redesSociales {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.redesSociales a {
+  display: inline-block;
+  padding: 0.1rem;
+}
+
+.redesSociales img {
+  height: 1.2em;
+  width: 1.2em;
+  margin: -1px 0px 2px 1px;
+}
+
+/* ------------------------------MEDIA QUERIES ---------------------------------------- */
+/* MOBILE S*/
+@media (max-width:375px) and (min-width:320px) {
+
+  h3 {
+    color: #597c8f;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .container-fluid {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 0;
+  }
+
+  .container__cards {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    background-color: #437194;
+    color: #D8E2E7;
+    padding: 1rem 0 0 0;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+  }
+
+  .redesSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .redesSociales a {
+    display: inline-block;
+    padding: 0.1rem;
+  }
+
+  .redesSociales img {
+    height: 1em;
+    width: 1em;
+    display: block;
+    margin: auto;
+    align-items: center;
+  }
+
+  p {
+    font-size: 0.8rem;
+    display: block;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+  }
+
+  .redes {
+    display: none;
+  }
+}
+
+
+
+/* --------------TABLET----------------------- */
+@media (max-width: 768px) and (min-width: 425px)
+{
+  h3 {
+    color: #597c8f;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .container__cards {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0.5rem 2rem 0.5rem;
+  }
+
+  .card-text {
+    font-size: 1.5rem;
+  }
+
+  .list-group-item {
+    color: #265672;
+    font-size: 1.3rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    background-color: #437194;
+    color: #D8E2E7;
+    padding: 1rem 0 0 0;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+  }
+
+  .redesSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .redesSociales a {
+    display: inline-block;
+    padding: 0.1rem;
+  }
+
+  .redesSociales img {
+    height: 1em;
+    width: 1em;
+    display: block;
+    margin: auto;
+    align-items: center;
+  }
+
+  p {
+    font-size: 0.8rem;
+    display: block;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+  }
+
+  .redes {
+    display: none;
+  }
+}
+
+  
