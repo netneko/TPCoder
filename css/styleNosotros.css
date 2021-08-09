@@ -35,12 +35,10 @@ body {
 h1
 {
   color: #053047;
-  margin-top: 2rem;
-  margin-bottom: 0;
+  margin-top: 0.7rem;
   text-align: center;
-  font-size:1.7rem;
+  padding-top:0.7rem;
 }
-
 .textoNosotros {
   color: #174E6D;
   text-align: center;

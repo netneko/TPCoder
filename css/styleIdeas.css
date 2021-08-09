@@ -36,19 +36,20 @@ main
 
 /* -------------------------------------------------FIN DE LO COMUN-------------------------------------------------*/
 
-h3 {
+h1 {
   color: #0B4666;
   display: block;
   margin: auto;
   font-size: 1.5rem;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
-.textoRecetas {
+h2{
   text-align: center;
   color: #437194;
-  margin: 3em 3em;
+  font-size: 1.2rem;
+  margin: 1.5rem 3rem 1rem 3rem;
 }
 
 

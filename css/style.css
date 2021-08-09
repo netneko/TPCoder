@@ -33,6 +33,14 @@ body {
 
 /* ----------------------------FIN DE LO COMUN------------------------------------------------------- */
 
+h1{
+  color: #053047;
+  padding-top: 1rem;
+  margin-top:1.3rem;
+  font-size: 1.4rem;
+  text-align: center;
+  padding-top: 0.7rem;
+}
 
 /* Carrousel pagina main */
 .carrousel .container {
@@ -44,9 +52,9 @@ body {
 }
 
 .textoMain {
-  padding: 3rem;
+  padding: 1rem;
   color: #437194;
-  margin-top: 2rem;
+  margin-top: 0.2rem;
   margin-bottom: 1rem;
   font-size: 1.1rem;
   text-align: center;

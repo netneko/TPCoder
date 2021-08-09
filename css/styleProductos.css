@@ -32,10 +32,17 @@ body {
 }
 
 /* --------------------------------------------------FIN DE LO COMUN------------------------------------------------- */
+/* Titulo para SEO */
+h1{
+  color: #053047;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 2rem;
+}
 
-h3 {
+h2{
   color: #597c8f;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-align: center;
   margin-top: 2rem;
 }
