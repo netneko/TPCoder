@@ -54,24 +54,101 @@ h2{
   height: auto;
 }
 
-/* cards */
-.container__cards {
+/* 
+.containerProductos
+{
   display: flex;
-  justify-content: space-around;
-  margin-top: 2em;
-  margin-left: 2rem;
-  margin-bottom: 2rem;
+  flex-direction: row;
+  justify-content:space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+} */
+
+/*Esto es para el overlay de las fotos*/
+/* Uso flex para alinear como fila todo lo que esta aca adentro */
+.container {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
 }
 
-.card-body {
-  color: #0B4666;
+.bg,
+.overlay {
+  text-align: center;
 }
 
-
-.list-group-item {
-  color: #265672;
+img,
+.overlay {
+  transition: 0.3s all;
+  border-radius: 3px;
 }
 
+.bg {
+  max-width: 24%;
+  position: relative;
+  margin: 0.5%;
+}
+.bg img {
+  width: 100%;
+}
+
+.bg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  opacity: 0;
+}
+
+.bg .overlay h3 {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-weight: 300;
+  font-size: 1.4rem;
+  color:#fff;
+  font-family:'Roboto', sans-serif;
+  text-align: center;
+  display: block;
+  margin:auto;
+  
+}
+
+/* items */
+.bg .overlay ul li {
+  font-family: "Julius Sans One", sans-serif;
+  font-size:0.9rem;
+  text-align: center;
+  list-style: none;
+  margin-right: 1.2rem;
+
+  padding:0;
+}
+.bg:hover .overlay {
+  opacity: 1;
+}
+.bg:hover img {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.textoProductos
+{
+  margin: 3rem 5rem 3rem 5rem;
+  padding: 0;
+  color: #ffff;
+  background-color: #597c8f;
+  display: block;
+  text-align: center;
+  font-style: italic;
+  border: 1px solid #0B4666;
+  border-color: #0B4666;
+  padding: 0.5%;
+
+}
 /* ---------------------------FOOTER-------------------------------------------------------------- */
 /* Footer con FLEX */
 footer {
@@ -254,3 +331,17 @@ footer {
 }
 
   
+/* @media screen and (max-width: 1148px) {
+  .bg {
+    max-width: 48%;
+    margin: 1%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg {
+    float: none;
+    max-width: 80%;
+    margin: 1% auto;
+  }
+} */
