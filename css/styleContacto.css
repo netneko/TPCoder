@@ -7,7 +7,8 @@
 
 body {
   width: 100%;
-  background-color: #f8f9fa;
+  background: rgb(230,233,235);
+background: linear-gradient(0deg, rgba(230,233,235,1) 23%, rgba(248,249,250,1) 60%);
 }
 
 .container-fluid {
@@ -84,7 +85,7 @@ footer {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  background-image: linear-gradient(to left, #628eac, #053047);
+  background-color:#0B4666;
   color: whitesmoke;
   padding: 1rem 0 0 0rem;
   width: 100%;

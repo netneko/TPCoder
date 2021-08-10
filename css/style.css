@@ -7,8 +7,10 @@
 
 body {
   width: 100%;
-  background-color: #f8f9fa;
+  background: rgb(230,233,235);
+  background: linear-gradient(0deg, rgba(230,233,235,1) 23%, rgba(248,249,250,1) 60%);  
 }
+
 
 .container-fluid {
   display: flex;
@@ -37,7 +39,7 @@ h1{
   color: #053047;
   padding-top: 1rem;
   margin-top:1.3rem;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   text-align: center;
   padding-top: 0.7rem;
 }
@@ -45,7 +47,7 @@ h1{
 /* Carrousel pagina main */
 .carrousel .container {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -71,7 +73,7 @@ footer {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  background-image: linear-gradient(to left, #628eac, #053047);
+  background-color:#0B4666;
   color: #D8E2E7;
   padding: 1rem 0 0 0;
   width: 100%;
