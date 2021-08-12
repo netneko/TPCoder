@@ -9,7 +9,7 @@ body {
   width: 100%;
   height: 100%;
   background: rgb(230,233,235);
-  background: linear-gradient(0deg, rgba(230,233,235,1) 23%, rgb(248, 243, 243) 60%);
+  background: linear-gradient(0deg, rgba(255,255,255) 23%, rgb(252, 252, 252) 60%);
 }
 
 .container-fluid {
@@ -168,7 +168,7 @@ footer {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  background-color:#0B4666;
+  background-color:#437194;
   color: #D8E2E7;
   padding: 1rem 0rem 0rem 0rem;
   width: 100%;
@@ -224,7 +224,7 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
-    background-color: #0B4666;
+    background-color: #437194;
     color: #D8E2E7;
     padding: 1rem 0 0 0;
     width: 100%;
@@ -291,11 +291,11 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
-    background-color: #0B4666;
+    background-color: #437194;
     color: #D8E2E7;
     padding: 1rem 0 0 0;
     width: 100%;
-    position:fixed;
+    position:relative;
     bottom: 0;
   }
 
