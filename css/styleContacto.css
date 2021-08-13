@@ -94,7 +94,7 @@ footer {
   color: whitesmoke;
   padding: 1rem 0 0 0rem;
   width: 100%;
-  position: fixed;
+  position:relative;
   bottom: 0;
 }
 
@@ -208,7 +208,7 @@ footer {
     color: #D8E2E7;
     padding: 1rem 0rem 0rem 0rem;
     width: 100%;
-    position: fixed;
+    position:relative;
     bottom: 0;
   }
 
