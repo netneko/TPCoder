@@ -91,12 +91,21 @@ footer {
 /* ------------------------------MEDIA QUERIES ---------------------------------------- */
 /* --------------TABLET----------------------- */
 @media (max-width: 768px) and (min-width: 425px) {
+
+  h1
+{
+  color: #053047;
+  margin-top: 0.8rem;
+  text-align: center;
+  padding-top:0.7rem;
+  font-size:1.5rem;
+}
   .text {
     position: absolute;
     color: #062333;
     top: 12%;
     left: 50%;
-    font-size: 2rem;
+    font-size:1.8rem;
     transform: translate(-50%, -50%);
   }
 

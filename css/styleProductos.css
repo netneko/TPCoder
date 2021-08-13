@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  gap: 8rem;
+  gap:0;
 }
 
 .navbar-nav {
@@ -208,10 +208,7 @@ footer {
     color: #597c8f;
     font-size: 1.2rem;
     text-align: center;
-    margin: 2rem 1rem 0rem 1rem;
-    margin-top: 2rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin: 2rem 1rem 0 1rem;
   }
 
   .container{
