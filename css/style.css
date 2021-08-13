@@ -105,15 +105,87 @@ footer {
 
 
 /* ------------------------------MEDIA QUERIES ---------------------------------------- */
+/* Desktop */
+@media (max-width:1440px) and (min-width:1025px) 
+{
+  h1{
+    color: #053047;
+    padding-top: 1rem;
+    margin: 2rem 0.7rem 1rem 0.7rem;
+    font-size:1.6rem;
+    text-align: center;
+  }
+
+  .textoMain {
+    padding: 2.5rem;
+    color: #437194;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: #437194;
+    color: #D8E2E7;
+    padding: 1rem 0rem 0rem 0rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .redesSociales {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+  }
+
+  .redesSociales a {
+    display: inline-block;
+    padding: 0.1rem;
+  }
+
+  .redesSociales img {
+    height: 1em;
+    width: 1em;
+    margin: -1px 0px 2px 1px;
+  }
+
+
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+
+  .copy {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
 /* --------------TABLET----------------------- */
 
 @media (max-width: 768px) and (min-width: 425px) {
 
+  h1{
+    color: #053047;
+    padding-top: 1rem;
+    margin: 2rem 0.7rem 0.8rem 0.7rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
   .textoMain {
-    padding: 3.5em;
+    padding: 2.5rem;
     color: #437194;
-    margin-top: 3.2em;
-    margin-bottom: 10em;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
     font-size: 1.8rem;
     text-align: center;
   }
@@ -174,10 +246,18 @@ footer {
     gap: 0;
   }
 
+  h1{
+    color: #053047;
+    padding-top: 1rem;
+    margin: 1.7rem 0.7rem 1rem 0.7rem;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
   .textoMain {
-    padding: 3rem;
+    padding: 2.5rem;
     color: #437194;
-    margin-top: 2em;
+    margin-top: 1.2em;
     margin-bottom: 0em;
     font-size: 1.5rem;
     text-align: center;
