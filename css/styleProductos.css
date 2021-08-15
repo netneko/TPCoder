@@ -348,6 +348,27 @@ footer {
     margin:auto;
     }
   
+  .textoProductos
+{
+  margin: 3rem 3rem 3rem 3rem;
+  color: #ffff;
+  background-color: #597c8f;
+  display: block;
+  text-align: center;
+  font-style: italic;
+  border-color: #597c8f;
+  padding:1rem 2rem 1rem 2rem;
+}
+.textoProductos:hover
+{
+  background-color: #265672;
+  border-color: #265672;
+}
+.textoProductos a
+{
+  text-decoration: none;
+  color: white;
+}
   /* items */
   .bg .overlay ul li {
     font-family: "Julius Sans One", sans-serif;
@@ -364,11 +385,32 @@ footer {
     max-width: 100%;
     margin: 1% auto;
   }
- 
+
   .bg img {
     width: 50%;
   }
 
+  .textoProductos
+  {
+    margin: 3rem 13rem 3rem 13rem;
+    color: #ffff;
+    background-color: #597c8f;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    border-color: #597c8f;
+    padding:1rem 2rem 1rem 2rem;
+  }
+  .textoProductos:hover
+  {
+    background-color: #265672;
+    border-color: #265672;
+  }
+  .textoProductos a
+  {
+    text-decoration: none;
+    color: white;
+  }
 
   footer {
     display: flex;
