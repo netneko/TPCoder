@@ -1,8 +1,6 @@
 $color__overlay--letra:white;
-$color__textArea--fondo:#597c8f;
-$color__textArea--borde:#597c8f;
+$color__textArea:#59849b;
 $color__textArea--hover:#265672;
-$color__textAreaB--hover:#265672;
 $color__link--hover:#90b8d4;
 
 
@@ -100,11 +98,11 @@ h2 {
         margin: 3rem 5rem 3rem 5rem;
         padding: 0;
         color:$color__overlay--letra;
-        background-color:$color__textArea--fondo;
+        background-color:$color__textArea;
         display: block;
         text-align: center;
         font-style: italic;
-        border-color:$color__textArea--borde;
+        border-color:$color__textArea;
         padding: 0.5%;
         a {
             text-decoration: none;
@@ -118,7 +116,7 @@ h2 {
     
     .textoProductos:hover {
         background-color:$color__textArea--hover;
-        border-color:$color__textAreaB--hover;
+        border-color:$color__textArea--hover;
     }
     
 

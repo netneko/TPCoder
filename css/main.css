@@ -327,11 +327,11 @@ h2 {
   margin: 3rem 5rem 3rem 5rem;
   padding: 0;
   color: white;
-  background-color: #597c8f;
+  background-color: #59849b;
   display: block;
   text-align: center;
   font-style: italic;
-  border-color: #597c8f;
+  border-color: #59849b;
   padding: 0.5%; }
   .textoProductos a {
     text-decoration: none;
@@ -412,11 +412,193 @@ h2 {
     border: #4d7891;
     font-size: 0.8rem; }
 
+/* $color__overlay--letra:white;
+$color__textArea:#59849b;
+$color__textArea--hover:#265672;
+$color__textAreaB--hover:#265672;
+$color__link--hover:#90b8d4;
+$color_fondo:#f8f9fa;
+$color_navbar:#f8f9fa;
+$color_navbar_links:#0B4666;
+$color_footer:#437194;
+$color_footer_texto:#D8E2E7;
+$color_titulos:#0B4666;
+$color_subtitulos:#597c8f;
+$color_texto:#437194; */
 /* ------------------------------MEDIA QUERIES ---------------------------------------- */
+/* --------------DESKTOP----------------------*/
+@media (max-width: 1440px) and (min-width: 1025px) {
+  h1 {
+    color: #0B4666;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem 1.5rem 0 1.5rem; }
+  h2 {
+    color: #597c8f;
+    font-size: 1rem;
+    text-align: center;
+    margin: 2rem 1rem 1.5rem 1rem; }
+  /*Esto es para el overlay de las fotos*/
+  /* Uso flex para alinear como fila todo lo que esta aca adentro */
+  .containerP {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 0; }
+    .containerP .bg {
+      float: none;
+      max-width: 40%;
+      margin: 2% auto; }
+      .containerP .bg img {
+        transition: 0.3s all;
+        border-radius: 3px;
+        width: 100%; }
+      .containerP .bg img:hover {
+        -webkit-filter: blur(2px);
+        filter: blur(2px); }
+      .containerP .bg .overlay {
+        text-align: center;
+        transition: 0.3s all;
+        border-radius: 3px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.2);
+        color: white;
+        opacity: 0; }
+        .containerP .bg .overlay h3 {
+          padding-top: 3%;
+          padding-bottom: 2%;
+          font-weight: 300;
+          font-size: 1.4rem;
+          color: white;
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          display: block;
+          margin: auto; }
+        .containerP .bg .overlay ul {
+          /* items */ }
+          .containerP .bg .overlay ul li {
+            font-family: "Julius Sans One", sans-serif;
+            font-size: 1rem;
+            text-align: center;
+            list-style: none;
+            margin-right: 1.2rem;
+            padding: 0; }
+      .containerP .bg .overlay:hover {
+        opacity: 1; }
+  .textoProductos {
+    margin: 3rem 1rem 3rem 1rem;
+    padding: 0;
+    color: white;
+    background-color: #59849b;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    border-color: #59849b;
+    padding: 0.5%; }
+    .textoProductos a {
+      text-decoration: none;
+      color: white; }
+    .textoProductos a:hover {
+      color: #90b8d4; }
+  .textoProductos:hover {
+    background-color: #265672;
+    border-color: #265672; } }
+
+/* --------------TABLET----------------------- */
+@media (max-width: 768px) and (min-width: 425px) {
+  body {
+    width: 100%;
+    height: 100%; }
+  h1 {
+    color: #0B4666;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem 1.5rem 0 1.5rem; }
+  h2 {
+    color: #597c8f;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 2rem 1rem 1.5rem 1rem; }
+  /*Esto es para el overlay de las fotos*/
+  /* Uso flex para alinear como fila todo lo que esta aca adentro */
+  .containerP {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 0; }
+    .containerP .bg {
+      float: none;
+      max-width: 40%;
+      margin: 0.5% auto; }
+      .containerP .bg img {
+        transition: 0.3s all;
+        border-radius: 3px;
+        width: 100%; }
+      .containerP .bg img:hover {
+        -webkit-filter: blur(2px);
+        filter: blur(2px); }
+      .containerP .bg .overlay {
+        text-align: center;
+        transition: 0.3s all;
+        border-radius: 3px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.2);
+        color: white;
+        opacity: 0; }
+        .containerP .bg .overlay h3 {
+          padding-top: 3%;
+          padding-bottom: 2%;
+          font-weight: 300;
+          font-size: 1.4rem;
+          color: white;
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          display: block;
+          margin: auto; }
+        .containerP .bg .overlay ul {
+          /* items */ }
+          .containerP .bg .overlay ul li {
+            font-family: "Julius Sans One", sans-serif;
+            font-size: 1rem;
+            text-align: center;
+            list-style: none;
+            margin-right: 1.2rem;
+            padding: 0; }
+      .containerP .bg .overlay:hover {
+        opacity: 1; }
+  .textoProductos {
+    margin: 3rem 14.5rem 3rem 14.5rem;
+    padding: 0;
+    color: white;
+    background-color: #59849b;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    border-color: #59849b;
+    padding: 0.5%; }
+    .textoProductos a {
+      text-decoration: none;
+      color: white; }
+    .textoProductos a:hover {
+      color: #90b8d4; }
+  .textoProductos:hover {
+    background-color: #265672;
+    border-color: #265672; } }
+
 /* MOBILE S*/
 @media (max-width: 375px) and (min-width: 320px) {
   h1 {
-    color: #053047;
+    color: #0B4666;
     font-size: 1.5rem;
     text-align: center;
     margin: 2rem 1rem 0 1rem; }
@@ -437,13 +619,13 @@ h2 {
       max-width: 80%;
       margin: 1% auto; }
   .textoProductos {
-    margin: 3rem 3rem 3rem 3rem;
-    color: #ffff;
+    margin: 3rem 3.5rem 3rem 3.5rem;
+    color: white;
     background-color: #597c8f;
     display: block;
     text-align: center;
     font-style: italic;
-    border-color: #597c8f;
+    border-color: #59849b;
     padding: 1rem 2rem 1rem 2rem; }
     .textoProductos a {
       text-decoration: none;
@@ -483,84 +665,64 @@ h2 {
     footer .redes {
       display: none; } }
 
+/* ------------------------------MEDIA QUERIES ---------------------------------------- */
+/* --------------DESKTOP----------------------*/
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .tituloContacto {
+    color: #0B4666;
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 4rem 0.7rem 0 5rem; }
+  h2 {
+    color: #597c8f;
+    font-size: 1.3rem;
+    text-align: left;
+    margin: 1rem 0.7rem 0 5rem; }
+  /*------------------------------------------------FORMULARIO--------------------------------------------------------*/
+  .row .col-lg-4 .formulario {
+    border: solid 0.5rem #628eac;
+    border-radius: 2%;
+    background-color: #628eac;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: whitesmoke;
+    font-size: 0.9rem;
+    margin-bottom: 12.3rem;
+    margin-top: 1rem; }
+    .row .col-lg-4 .formulario .comentarios {
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+      color: lightgray; }
+    .row .col-lg-4 .formulario .boton {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.8rem;
+      background-color: #4d7891;
+      border: #4d7891;
+      font-size: 0.8rem; } }
+
 /* --------------TABLET----------------------- */
 @media (max-width: 768px) and (min-width: 425px) {
-  body {
-    width: 100%;
-    height: 100%; }
-  h3 {
+  .tituloContacto {
+    color: #0B4666;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 4rem 0.7rem 0 5rem; }
+  h2 {
     color: #597c8f;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     text-align: center;
-    margin-top: 2rem; }
-  /*Esto es para el overlay de las fotos*/
-  /* Uso flex para alinear como fila todo lo que esta aca adentro */
-  .containerP {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
+    margin: 1rem 0.7rem 0 0; } }
+
+/* --------------CELULAR---------------------- */
+@media (max-width: 375px) and (min-width: 320px) {
+  .tituloContacto {
+    color: #0B4666;
+    font-size: 1.4rem;
     text-align: center;
-    gap: 0; }
-    .containerP .bg {
-      float: none;
-      max-width: 80%;
-      /*    position: relative; */
-      margin: 0.5% auto; }
-      .containerP .bg img {
-        transition: 0.3s all;
-        border-radius: 3px;
-        width: 100%; }
-      .containerP .bg img:hover {
-        -webkit-filter: blur(2px);
-        filter: blur(2px); }
-      .containerP .bg .overlay {
-        text-align: center;
-        transition: 0.3s all;
-        border-radius: 3px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.2);
-        color: white;
-        opacity: 0; }
-        .containerP .bg .overlay h3 {
-          padding-top: 3%;
-          padding-bottom: 2%;
-          font-weight: 300;
-          font-size: 1.4rem;
-          color: white;
-          font-family: 'Roboto', sans-serif;
-          text-align: center;
-          display: block;
-          margin: auto; }
-        .containerP .bg .overlay ul {
-          /* items */ }
-          .containerP .bg .overlay ul li {
-            font-family: "Julius Sans One", sans-serif;
-            font-size: 0.9rem;
-            text-align: center;
-            list-style: none;
-            margin-right: 1.2rem;
-            padding: 0; }
-      .containerP .bg .overlay:hover {
-        opacity: 1; }
-  .textoProductos {
-    margin: 3rem 5rem 3rem 5rem;
-    padding: 0;
-    color: white;
-    background-color: lightgray;
-    display: block;
+    margin: 4rem 0 0 0; }
+  h2 {
+    color: #597c8f;
+    font-size: 1.3rem;
     text-align: center;
-    font-style: italic;
-    border-color: #597c8f;
-    padding: 0.5%; }
-    .textoProductos a {
-      text-decoration: none;
-      color: white; }
-    .textoProductos a:hover {
-      color: #90b8d4; }
-  .textoProductos:hover {
-    background-color: #265672;
-    border-color: #265672; } }
+    margin: 1rem 0.7rem 0 0; } }
