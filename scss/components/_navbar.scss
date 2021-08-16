@@ -1,0 +1,23 @@
+.container-fluid {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	gap: 8rem;
+}
+.navbar-nav {
+	gap: 6rem;
+}
+.navbar-light {
+	.navbar-nav {
+		.nav-link {
+			color:$color_navbar_links;
+		}
+	}
+}
+.navbar-brand {
+	img {
+		width: 8em;
+		height: 3em;
+		margin: 0rem 0rem 0rem 0rem;
+	}
+}

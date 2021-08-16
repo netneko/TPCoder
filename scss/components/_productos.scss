@@ -1,0 +1,126 @@
+$color__overlay--letra:white;
+$color__textArea--fondo:#597c8f;
+$color__textArea--borde:#597c8f;
+$color__textArea--hover:#265672;
+$color__textAreaB--hover:#265672;
+$color__link--hover:#90b8d4;
+
+
+h1 {
+    color:$color_titulos;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    color:$color_subtitulos;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+/* FOTO */
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+/*Esto es para el overlay de las fotos*/
+/* Uso flex para alinear como fila todo lo que esta aca adentro */
+.containerP 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+    .bg
+    {
+        max-width: 24%;
+        position: relative;
+        margin: 0.5%;
+        img
+        {
+            transition: 0.3s all;
+            border-radius: 3px;
+            width: 100%;
+        }
+        img:hover {
+            -webkit-filter: blur(2px);
+            filter: blur(2px);
+        }
+        .overlay 
+        {
+            text-align: center;
+            transition: 0.3s all;
+            border-radius: 3px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.2);
+            color:$color__overlay--letra;
+
+            opacity: 0;
+            h3 
+            {
+                padding-top: 3%;
+                padding-bottom: 2%;
+                font-weight: 300;
+                font-size: 1.4rem;
+                color:$color__overlay--letra;
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                display: block;
+                margin: auto;
+            }
+            ul
+            {
+            /* items */
+                li 
+                {
+                    font-family: "Julius Sans One", sans-serif;
+                    font-size: 0.9rem;
+                    text-align: center;
+                    list-style: none;
+                    margin-right: 1.2rem;
+                    padding: 0;
+                }
+            }
+        }
+        .overlay:hover
+        {
+            opacity: 1; 
+        }
+    } 
+} 
+    .textoProductos {
+        margin: 3rem 5rem 3rem 5rem;
+        padding: 0;
+        color:$color__overlay--letra;
+        background-color:$color__textArea--fondo;
+        display: block;
+        text-align: center;
+        font-style: italic;
+        border-color:$color__textArea--borde;
+        padding: 0.5%;
+        a {
+            text-decoration: none;
+            color:$color__overlay--letra;
+        }
+        
+        a:hover {
+            color:$color__link--hover
+        }
+    }
+    
+    .textoProductos:hover {
+        background-color:$color__textArea--hover;
+        border-color:$color__textAreaB--hover;
+    }
+    
+
+
+

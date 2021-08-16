@@ -1,0 +1,26 @@
+$color_fondo:#f8f9fa;
+$color_navbar:#f8f9fa;
+$color_navbar_links:#0B4666;
+$color_footer:#437194;
+$color_footer_texto:#D8E2E7;
+$color_titulos:#0B4666;
+$color_subtitulos:#597c8f;
+$color_texto:#437194;
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: $color_fondo;
+}
+
+main 
+{
+    min-height: 100vh;
+}

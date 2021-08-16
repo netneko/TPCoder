@@ -1,0 +1,42 @@
+footer 
+{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	background-color:$color_footer;
+	color: whitesmoke;
+	padding: 1rem 0 0 0rem;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	
+	.redesSociales 
+	{
+		display: flex;
+		justify-content: flex-end;
+		margin-right: 1rem;
+		.redes
+		{
+			font-size:1rem;
+		}
+		a 
+		{
+			display: inline-block;
+			padding: 0.1rem;
+		}
+		img 
+		{
+			height: 1.2em;
+			width: 1.2em;
+			margin: -1px 0px 2px 1px;
+		}
+	}
+	p
+	{
+		font-size: 1rem;
+	}
+	.copy
+	{
+		font-size: 1rem;
+	}
+}
