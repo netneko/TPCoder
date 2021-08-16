@@ -52,7 +52,7 @@ footer {
       height: 1.2em;
       width: 1.2em;
       margin: -1px 0px 2px 1px; }
-  footer p {
+  footer .frase {
     font-size: 1rem; }
   footer .copy {
     font-size: 1rem; }
@@ -92,6 +92,183 @@ h2 {
   margin-bottom: 1rem;
   font-size: 1.2rem;
   text-align: center; }
+
+.tituloContacto {
+  color: #0B4666;
+  font-size: 1.4rem;
+  text-align: left;
+  margin: 4rem 0.7rem 0 5rem; }
+
+h2 {
+  color: #597c8f;
+  font-size: 1.3rem;
+  text-align: left;
+  margin: 1rem 0.7rem 0 5rem; }
+
+/*------------------------------------------------FORMULARIO--------------------------------------------------------*/
+.row .col-lg-4 .formulario {
+  border: solid 0.5rem #628eac;
+  border-radius: 2%;
+  background-color: #628eac;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: whitesmoke;
+  font-size: 0.9rem;
+  margin-bottom: 12.3rem;
+  margin-top: 1rem; }
+  .row .col-lg-4 .formulario .comentarios {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    color: lightgray; }
+  .row .col-lg-4 .formulario .boton {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
+    background-color: #4d7891;
+    border: #4d7891;
+    font-size: 0.8rem; }
+
+h1 {
+  color: #0B4666;
+  display: block;
+  margin: auto;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2.5rem; }
+
+h2 {
+  text-align: center;
+  color: #437194;
+  font-size: 1.2rem;
+  margin: 1.5rem 3rem 1rem 3rem; }
+
+/* ------------GRID---------------- */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 0.1rem;
+  padding: 0.1rem;
+  grid-auto-flow: dense;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+  margin-bottom: 0.6rem; }
+  .grid-container .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white; }
+    .grid-container .grid-item img {
+      width: 19em;
+      height: 19em; }
+
+/* NOSOTROS */
+.containerFoto .img-fluid {
+  width: 100%;
+  height: 33rem; }
+
+.tituloNosotros {
+  color: #0B4666;
+  margin-top: 0.8rem;
+  text-align: center;
+  padding-top: 0.7rem;
+  font-size: 1.5rem; }
+
+.textoNosotros {
+  color: #597c8f;
+  text-align: center;
+  font-size: 1rem;
+  margin: 1.5rem 4rem 2rem 4rem; }
+
+h1 {
+  color: #0B4666;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 2rem; }
+
+h2 {
+  color: #597c8f;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
+
+/* FOTO */
+.img-fluid {
+  width: 100%;
+  height: auto; }
+
+/*Esto es para el overlay de las fotos*/
+/* Uso flex para alinear como fila todo lo que esta aca adentro */
+.containerP {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 1rem auto; }
+  .containerP .bg {
+    max-width: 24%;
+    position: relative;
+    margin: 0.5%; }
+    .containerP .bg img {
+      transition: 0.3s all;
+      border-radius: 3px;
+      width: 100%; }
+    .containerP .bg img:hover {
+      -webkit-filter: blur(2px);
+      filter: blur(2px); }
+    .containerP .bg .overlay {
+      text-align: center;
+      transition: 0.3s all;
+      border-radius: 3px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.2);
+      color: white;
+      opacity: 0; }
+      .containerP .bg .overlay h3 {
+        padding-top: 3%;
+        padding-bottom: 2%;
+        font-weight: 300;
+        font-size: 1.4rem;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        display: block;
+        margin: auto; }
+      .containerP .bg .overlay ul {
+        /* items */ }
+        .containerP .bg .overlay ul li {
+          font-family: "Julius Sans One", sans-serif;
+          font-size: 0.9rem;
+          text-align: center;
+          list-style: none;
+          margin-right: 1.2rem;
+          padding: 0; }
+    .containerP .bg .overlay:hover {
+      opacity: 1; }
+
+.textoProductos {
+  margin: 3rem 5rem 3rem 5rem;
+  padding: 0;
+  color: white;
+  background-color: #59849b;
+  display: block;
+  text-align: center;
+  font-style: italic;
+  border-color: #59849b;
+  padding: 0.5%; }
+  .textoProductos a {
+    text-decoration: none;
+    color: white; }
+  .textoProductos a:hover {
+    color: #90b8d4; }
+
+.textoProductos:hover {
+  background-color: #265672;
+  border-color: #265672; }
 
 /* ------------------------------MEDIA QUERIES ---------------------------------------- */
 /* Desktop */
@@ -234,183 +411,66 @@ h2 {
   .redes {
     display: none; } }
 
-/* ----------------------------------------------------- */
-/* NOSOTROS */
-h1 {
-  color: #053047;
-  margin-top: 0.8rem;
-  text-align: center;
-  padding-top: 0.7rem;
-  font-size: 1.5rem; }
+/* ------------------------------MEDIA QUERIES ---------------------------------------- */
+/* --------------DESKTOP----------------------*/
+@media (max-width: 1440px) and (min-width: 1025px) {
+  h2 {
+    text-align: center;
+    color: #437194;
+    font-size: 1.2rem;
+    margin: 1.5rem 0 1rem 0; } }
 
-.textoNosotros {
-  color: #174E6D;
-  text-align: center;
-  font-size: 1rem;
-  margin: 1.5rem 4rem 2rem 4rem; }
+/* --------------TABLET----------------------- */
+/* --------------CELULAR---------------------- */
+@media (max-width: 375px) and (min-width: 320px) {
+  .frase {
+    display: none; } }
 
-.img-fluid {
-  width: 100%;
-  height: 33rem; }
+/* ------------------------------MEDIA QUERIES ---------------------------------------- */
+/* --------------DESKTOP----------------------*/
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .tituloNosotros {
+    color: #0B4666;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 0.7rem;
+    font-size: 1.9rem; }
+  .textoNosotros {
+    color: #597c8f;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 1.5rem 4rem 5rem 4rem; } }
 
-h1 {
-  color: #0B4666;
-  font-size: 1.6rem;
-  text-align: center;
-  margin-top: 2rem; }
+/* --------------TABLET----------------------- */
+@media (max-width: 768px) and (min-width: 425px) {
+  .tituloNosotros {
+    font-size: 1.5rem;
+    color: #0B4666;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 0.7rem; }
+  .textoNosotros {
+    color: #597c8f;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 1.5rem 3rem 5rem 3rem; } }
 
-h2 {
-  color: #597c8f;
-  font-size: 1.1rem;
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 4rem; }
-
-/* FOTO */
-.img-fluid {
-  width: 100%;
-  height: auto; }
-
-/*Esto es para el overlay de las fotos*/
-/* Uso flex para alinear como fila todo lo que esta aca adentro */
-.containerP {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 1rem auto; }
-  .containerP .bg {
-    max-width: 24%;
-    position: relative;
-    margin: 0.5%; }
-    .containerP .bg img {
-      transition: 0.3s all;
-      border-radius: 3px;
-      width: 100%; }
-    .containerP .bg img:hover {
-      -webkit-filter: blur(2px);
-      filter: blur(2px); }
-    .containerP .bg .overlay {
-      text-align: center;
-      transition: 0.3s all;
-      border-radius: 3px;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.2);
-      color: white;
-      opacity: 0; }
-      .containerP .bg .overlay h3 {
-        padding-top: 3%;
-        padding-bottom: 2%;
-        font-weight: 300;
-        font-size: 1.4rem;
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-        display: block;
-        margin: auto; }
-      .containerP .bg .overlay ul {
-        /* items */ }
-        .containerP .bg .overlay ul li {
-          font-family: "Julius Sans One", sans-serif;
-          font-size: 0.9rem;
-          text-align: center;
-          list-style: none;
-          margin-right: 1.2rem;
-          padding: 0; }
-    .containerP .bg .overlay:hover {
-      opacity: 1; }
-
-.textoProductos {
-  margin: 3rem 5rem 3rem 5rem;
-  padding: 0;
-  color: white;
-  background-color: #59849b;
-  display: block;
-  text-align: center;
-  font-style: italic;
-  border-color: #59849b;
-  padding: 0.5%; }
-  .textoProductos a {
-    text-decoration: none;
-    color: white; }
-  .textoProductos a:hover {
-    color: #90b8d4; }
-
-.textoProductos:hover {
-  background-color: #265672;
-  border-color: #265672; }
-
-h1 {
-  color: #0B4666;
-  display: block;
-  margin: auto;
-  font-size: 1.5rem;
-  text-align: center;
-  margin-top: 2.5rem; }
-
-h2 {
-  text-align: center;
-  color: #437194;
-  font-size: 1.2rem;
-  margin: 1.5rem 3rem 1rem 3rem; }
-
-/* ------------GRID---------------- */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: minmax(200px, auto);
-  gap: 0.1rem;
-  padding: 0.1rem;
-  grid-auto-flow: dense;
-  margin-right: 0.2rem;
-  margin-left: 0.2rem;
-  margin-bottom: 0.6rem; }
-  .grid-container .grid-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 1px white; }
-    .grid-container .grid-item img {
-      width: 19em;
-      height: 19em; }
-
-.tituloContacto {
-  color: #0B4666;
-  font-size: 1.4rem;
-  text-align: left;
-  margin: 4rem 0.7rem 0 5rem; }
-
-h2 {
-  color: #597c8f;
-  font-size: 1.3rem;
-  text-align: left;
-  margin: 1rem 0.7rem 0 5rem; }
-
-/*------------------------------------------------FORMULARIO--------------------------------------------------------*/
-.row .col-lg-4 .formulario {
-  border: solid 0.5rem #628eac;
-  border-radius: 2%;
-  background-color: #628eac;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  color: whitesmoke;
-  font-size: 0.9rem;
-  margin-bottom: 12.3rem;
-  margin-top: 1rem; }
-  .row .col-lg-4 .formulario .comentarios {
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
-    color: lightgray; }
-  .row .col-lg-4 .formulario .boton {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    margin-bottom: 0.8rem;
-    background-color: #4d7891;
-    border: #4d7891;
-    font-size: 0.8rem; }
+/* --------------CELULAR---------------------- */
+@media (max-width: 375px) and (min-width: 320px) {
+  .tituloNosotros {
+    font-size: 2rem;
+    color: #0B4666;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 0.7rem; }
+  .textoNosotros {
+    color: #597c8f;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1.5rem 2rem 5rem 2rem; } }
 
 /* $color__overlay--letra:white;
 $color__textArea:#59849b;
@@ -595,7 +655,7 @@ $color_texto:#437194; */
     background-color: #265672;
     border-color: #265672; } }
 
-/* MOBILE S*/
+/*----------------------- CELULAR-------------------------------------------*/
 @media (max-width: 375px) and (min-width: 320px) {
   h1 {
     color: #0B4666;
@@ -604,9 +664,10 @@ $color_texto:#437194; */
     margin: 2rem 1rem 0 1rem; }
   h2 {
     color: #597c8f;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     text-align: center;
-    margin: 2rem 1rem 0 1rem; }
+    margin: 2rem 1rem 0 1rem;
+    padding: 0rem 1rem 0 1rem; }
   .containerP {
     display: flex;
     flex-direction: column-reverse;
@@ -663,6 +724,8 @@ $color_texto:#437194; */
       padding: 0;
       align-items: center; }
     footer .redes {
+      display: none; }
+    footer .frase {
       display: none; } }
 
 /* ------------------------------MEDIA QUERIES ---------------------------------------- */
@@ -725,4 +788,6 @@ $color_texto:#437194; */
     color: #597c8f;
     font-size: 1.3rem;
     text-align: center;
-    margin: 1rem 0.7rem 0 0; } }
+    margin: 1rem 0.7rem 0 0; }
+  .frase {
+    display: none; } }

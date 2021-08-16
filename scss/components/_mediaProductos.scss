@@ -246,7 +246,8 @@ $color_texto:#437194; */
     }
     
 }
-/* MOBILE S*/
+/*----------------------- CELULAR-------------------------------------------*/
+
 @media (max-width:375px) and (min-width:320px) {
 
     h1 {
@@ -256,11 +257,13 @@ $color_texto:#437194; */
         margin: 2rem 1rem 0 1rem;
     }
 
+
     h2 {
         color:$color_subtitulos;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         text-align: center;
         margin: 2rem 1rem 0 1rem;
+        padding:0rem 1rem 0 1rem;
     }
 
     .containerP
@@ -342,6 +345,10 @@ $color_texto:#437194; */
         }
     
         .redes {
+            display: none;
+        }
+        .frase
+        {
             display: none;
         }
     }
