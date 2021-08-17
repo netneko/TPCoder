@@ -1,3 +1,8 @@
+/* $color__formulario:#628eac;
+$color__formulario--letra:whitesmoke;
+$color__textArea--fondo:rgb(211, 211, 211);
+$color__boton:#4d7891;
+$color__boton--hover:#60879e; */
 /* ------------------------------MEDIA QUERIES ---------------------------------------- */
 /* --------------DESKTOP----------------------*/
 @media (max-width:1440px) and (min-width:1025px) 
@@ -47,9 +52,9 @@
         .col-lg-4 {
     
             .formulario {
-                border: solid 0.5rem $color__formulario--fondo;
+                border: solid 0.5rem $color__formulario;
                 border-radius: 2%;
-                background-color:$color__formulario--fondo;
+                background-color:$color__formulario;
                 padding-right: 1rem;
                 padding-left: 1rem;
                 color:$color__formulario--letra;

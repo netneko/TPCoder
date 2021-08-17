@@ -1,7 +1,8 @@
-$color__formulario--fondo:#628eac;
+$color__formulario:#628eac;
 $color__formulario--letra:whitesmoke;
 $color__textArea--fondo:rgb(211, 211, 211);
 $color__boton:#4d7891;
+$color__boton--hover:#458cb6;
 
 
 .tituloContacto{
@@ -24,12 +25,12 @@ h2 {
     .col-lg-4 {
 
         .formulario {
-            border: solid 0.5rem #628eac;
+            border: solid 0.5rem $color__formulario;
             border-radius: 2%;
-            background-color: #628eac;
+            background-color:$color__formulario;
             padding-right: 1rem;
             padding-left: 1rem;
-            color: whitesmoke;
+            color: $color__formulario--letra;
             font-size: 0.9rem;
             margin-bottom: 12.3rem;
             margin-top: 1rem;
@@ -44,9 +45,15 @@ h2 {
                 padding-top: 0.5rem;
                 padding-bottom: 0.5rem;
                 margin-bottom: 0.8rem;
-                background-color: #4d7891;
-                border: #4d7891;
+                background-color:$color__boton;
+                border:$color__boton;
                 font-size: 0.8rem;
+            }
+
+            .boton:hover
+            {
+                background-color:$color__boton--hover;
+                border:$color__boton--hover;
             }
         }
     }

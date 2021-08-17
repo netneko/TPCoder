@@ -1,8 +1,8 @@
-$color__overlay--letra:white;
+ $color__overlay--letra:white;
 $color__textArea:#59849b;
 $color__textArea--hover:#265672;
 $color__link--hover:#90b8d4;
-
+$borderRad:3%;
 
 h1 {
     color:$color_titulos;
@@ -26,7 +26,7 @@ h1 {
 } */
 .img-fluid
 {
-    @include sizesImg(10%,auto);
+    @include sizesImg(100%,auto);
 }
 
 /*Esto es para el overlay de las fotos*/
@@ -45,7 +45,7 @@ h1 {
         img
         {
             transition: 0.3s all;
-            border-radius: 3px;
+            border-radius:$borderRad;
             width: 100%;
         }
         img:hover {
@@ -56,7 +56,7 @@ h1 {
         {
             text-align: center;
             transition: 0.3s all;
-            border-radius: 3px;
+            border-radius:$borderRad;
             position: absolute;
             top: 0;
             left: 0;
