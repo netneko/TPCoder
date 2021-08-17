@@ -24,3 +24,10 @@ main
 {
     min-height: 100vh;
 }
+
+@mixin sizesImg($width,$height)
+{
+    width: $width;
+    height: $height;
+    
+}

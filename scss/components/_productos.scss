@@ -20,9 +20,13 @@ h1 {
 }
 
 /* FOTO */
-.img-fluid {
+/* .img-fluid {
     width: 100%;
     height: auto;
+} */
+.img-fluid
+{
+    @include sizesImg(10%,auto);
 }
 
 /*Esto es para el overlay de las fotos*/
@@ -60,7 +64,6 @@ h1 {
             width: 100%;
             background: rgba(0, 0, 0, 0.2);
             color:$color__overlay--letra;
-
             opacity: 0;
             h3 
             {

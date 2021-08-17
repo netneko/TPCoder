@@ -3,8 +3,9 @@
 {
     .img-fluid 
     {
-        width: 100%;
-        height: 33rem;
+        @include sizesImg(100%,32rem);
+        /* width: 100%;
+        height: 33rem; */
     }
 }
 .tituloNosotros {

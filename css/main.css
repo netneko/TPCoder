@@ -159,7 +159,9 @@ h1 {
 /* NOSOTROS */
 .containerFoto .img-fluid {
   width: 100%;
-  height: 33rem; }
+  height: 32rem;
+  /* width: 100%;
+        height: 33rem; */ }
 
 .tituloNosotros {
   color: #0B4666;
@@ -188,8 +190,12 @@ h1 {
   margin-bottom: 4rem; }
 
 /* FOTO */
+/* .img-fluid {
+    width: 100%;
+    height: auto;
+} */
 .img-fluid {
-  width: 100%;
+  width: 10%;
   height: auto; }
 
 /*Esto es para el overlay de las fotos*/
@@ -471,7 +477,10 @@ h1 {
     color: #597c8f;
     text-align: center;
     font-size: 1.1rem;
-    margin: 1.5rem 2rem 5rem 2rem; } }
+    margin: 1.5rem 2rem 5rem 2rem; }
+  .img-fluid {
+    width: 100%;
+    height: 29rem; } }
 
 /* $color__overlay--letra:white;
 $color__textArea:#59849b;
