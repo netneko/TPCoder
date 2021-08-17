@@ -3,13 +3,37 @@
 /* --------------DESKTOP----------------------*/
 @media (max-width:1440px) and (min-width:1025px) 
 {
+    .container-fluid {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 8rem;
+    }
+    .navbar-nav {
+        gap: 6rem;
+    }
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                color:$color_navbar_links;
+            }
+        }
+    }
+    .navbar-brand {
+        img {
+            width: 8em;
+            height: 3em;
+            margin: 0rem 0rem 0rem 0rem;
+        }
+    }
+    
 
-h2 {
-    text-align: center;
-    color:$color_titulos;
-    font-size: 1.2rem;
-    margin: 1.5rem 0 1rem 0;
-}
+    h2 {
+        text-align: center;
+        color:$color_titulos;
+        font-size: 1.2rem;
+        margin: 1.5rem 0 1rem 0;
+    }
 }
 
 /* --------------TABLET----------------------- */

@@ -11,14 +11,14 @@
         margin-bottom: 1rem;
         text-align: center;
         padding-top: 0.7rem;
-        font-size: 1.9rem;
+        font-size: 1.6rem;
     }
 
     .textoNosotros 
     {
         color:$color_subtitulos;
         text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin: 1.5rem 4rem 5rem 4rem;
     }
 }
@@ -27,22 +27,13 @@
 @media (max-width: 768px) and (min-width: 425px) 
 {
 
-    .tituloNosotros 
-    { 
-        font-size: 1.5rem;
-        color:$color_titulos;
-        margin-top: 0.8rem;
-        margin-bottom: 1rem;
-        text-align: center;
-        padding-top: 0.7rem;
-    }
-
     .textoNosotros 
     {
         color:$color_subtitulos;
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         margin: 1.5rem 3rem 5rem 3rem;
+        padding-top: 0.7rem;
     }
 }
 
@@ -51,7 +42,7 @@
 {
     .tituloNosotros 
     { 
-        font-size: 2rem;
+        font-size: 1.8rem;
         color:$color_titulos;
         margin-top: 0.8rem;
         margin-bottom: 1rem;
@@ -63,7 +54,7 @@
     {
         color:$color_subtitulos;
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         margin: 1.5rem 2rem 5rem 2rem;
     }
 }
