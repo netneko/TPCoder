@@ -3,9 +3,10 @@
 {
     .img-fluid 
     {
-        @include sizesImg(100%,32rem);
+        @include sizesImg(100%,36rem);
     }
 }
+
 .tituloNosotros {
     color:$color_titulos;
     margin-top: 0.8rem;
