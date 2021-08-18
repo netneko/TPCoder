@@ -58,9 +58,12 @@
         margin: 1.5rem 2rem 5rem 2rem;
     }
 
-    .img-fluid
+    .containerFoto
     {
-        width: 100%;
-        height: 29rem;
+        .img-fluid
+        {
+            @include sizesImg(100%,20rem);
+        }
     }
+    
 }

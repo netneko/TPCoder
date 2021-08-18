@@ -472,9 +472,9 @@ h1 {
     text-align: center;
     font-size: 1.1rem;
     margin: 1.5rem 2rem 5rem 2rem; }
-  .img-fluid {
+  .containerFoto .img-fluid {
     width: 100%;
-    height: 29rem; } }
+    height: 20rem; } }
 
 /* $color__overlay--letra:white;
 $color__textArea:#59849b;
