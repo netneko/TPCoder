@@ -7,11 +7,9 @@ h1 {
     margin-top: 2.5rem;
 }
 
-.subIdeas
+.textoIdeas
     {
-        text-align: center;
-        color:$color_subtitulos;
-        font-size: 1.2rem;
+        @extend %texto;
         margin: 1.5rem 3rem 1rem 3rem;
     }
 

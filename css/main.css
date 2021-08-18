@@ -68,7 +68,7 @@ footer {
 h1 {
   font-size: 1.4rem; }
 
-.textoMain, .textoNosotros {
+.textoMain, .textoIdeas, .textoNosotros {
   font-size: 1.2rem;
   color: #597c8f;
   text-align: center; }
@@ -134,10 +134,7 @@ h1 {
   text-align: center;
   margin-top: 2.5rem; }
 
-.subIdeas {
-  text-align: center;
-  color: #597c8f;
-  font-size: 1.2rem;
+.textoIdeas {
   margin: 1.5rem 3rem 1rem 3rem; }
 
 /* ------------GRID---------------- */
