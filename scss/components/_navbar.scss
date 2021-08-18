@@ -16,8 +16,7 @@
 }
 .navbar-brand {
 	img {
-		width: 8em;
-		height: 3em;
-		margin: 0rem 0rem 0rem 0rem;
+		@include sizesImg(8em,3em);
+		margin:0;
 	}
 }

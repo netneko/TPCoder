@@ -27,13 +27,13 @@ main {
 .navbar-brand img {
   width: 8em;
   height: 3em;
-  margin: 0rem 0rem 0rem 0rem; }
+  margin: 0; }
 
 footer {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  background-color: #437194;
+  background-image: linear-gradient(to left, #628eac, #053047);
   color: whitesmoke;
   padding: 1rem 0 0 0rem;
   width: 100%;
@@ -49,8 +49,8 @@ footer {
       display: inline-block;
       padding: 0.1rem; }
     footer .redesSociales img {
-      height: 1.2em;
       width: 1.2em;
+      height: 1.2em;
       margin: -1px 0px 2px 1px; }
   footer .frase {
     font-size: 1rem; }
@@ -68,7 +68,11 @@ footer {
 h1 {
   font-size: 1.4rem; }
 
-/* Algo con el color de los titulos y sbutitulos */
+.textoMain, .textoNosotros {
+  font-size: 1.2rem;
+  color: #597c8f;
+  text-align: center; }
+
 h1 {
   padding-top: 1rem;
   margin-top: 1.3rem;
@@ -81,11 +85,8 @@ h2 {
 
 .textoMain {
   padding: 1rem;
-  color: #597c8f;
   margin-top: 0.2rem;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  text-align: center; }
+  margin-bottom: 1rem; }
 
 .tituloContacto {
   color: #0B4666;
@@ -175,9 +176,6 @@ h1 {
   font-size: 1.5rem; }
 
 .textoNosotros {
-  color: #597c8f;
-  text-align: center;
-  font-size: 1rem;
   margin: 1.5rem 4rem 2rem 4rem; }
 
 h1 {
@@ -193,11 +191,6 @@ h1 {
   margin-top: 2rem;
   margin-bottom: 4rem; }
 
-/* FOTO */
-/* .img-fluid {
-    width: 100%;
-    height: auto;
-} */
 .img-fluid {
   width: 100%;
   height: auto; }

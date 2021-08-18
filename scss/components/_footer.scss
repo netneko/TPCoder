@@ -3,7 +3,7 @@ footer
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-around;
-	background-color:$color_footer;
+	background-image: linear-gradient(to left, #628eac, #053047);
 	color: whitesmoke;
 	padding: 1rem 0 0 0rem;
 	width: 100%;
@@ -26,8 +26,7 @@ footer
 		}
 		img 
 		{
-			height: 1.2em;
-			width: 1.2em;
+			@include sizesImg(1.2em,1.2em);
 			margin: -1px 0px 2px 1px;
 		}
 	}

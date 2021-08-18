@@ -7,6 +7,9 @@ $size in (h1: 1.4rem) {
 }
 
 
-/* Algo con el color de los titulos y sbutitulos */
-
-
+%texto
+{
+    font-size: 1.2rem;
+    color:$color_subtitulos;
+    text-align: center;
+}

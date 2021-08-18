@@ -19,11 +19,6 @@ h1 {
     margin-bottom: 4rem;
 }
 
-/* FOTO */
-/* .img-fluid {
-    width: 100%;
-    height: auto;
-} */
 .img-fluid
 {
     @include sizesImg(100%,auto);

@@ -16,8 +16,6 @@
 
 .textoNosotros 
 {
-    color:$color_subtitulos;
-    text-align: center;
-    font-size: 1rem;
+    @extend %texto;
     margin: 1.5rem 4rem 2rem 4rem;
 }

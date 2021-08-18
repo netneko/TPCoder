@@ -33,16 +33,17 @@ h1 {
         align-items: center;
         justify-content: center;
         border: solid 1px white;
+        
         img 
         {
-            width: 19em;
-            height: 19em;
+            @include sizesImg(19em,19em);
         }
 
         img:hover{ 
             -webkit-transform: scale(1.1);
-            transform: scale(1.1)
+            transform: scale(1.1);
         }
+
     }
 }
 
