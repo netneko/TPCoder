@@ -3,6 +3,9 @@ $color__formulario--letra:whitesmoke;
 $color__textArea--fondo:rgb(211, 211, 211);
 $color__boton:#4d7891;
 $color__boton--hover:#458cb6;
+$color__botonS:#0B4666;
+$color__botonS--hover:#134d6d;
+$border-radius:2%;
 
 
 .tituloContacto{
@@ -12,7 +15,7 @@ $color__boton--hover:#458cb6;
     margin: 4rem 0.7rem 0 5rem;
 } 
 
-h2 {
+h2{
     color: $color_subtitulos;
     font-size: 1.3rem;
     text-align: left;
@@ -21,40 +24,80 @@ h2 {
 
 /*------------------------------------------------FORMULARIO--------------------------------------------------------*/
 
-.row {
-    .col-lg-4 {
 
-        .formulario {
-            border: solid 0.5rem $color__formulario;
-            border-radius: 2%;
-            background-color:$color__formulario;
-            padding-right: 1rem;
-            padding-left: 1rem;
-            color: $color__formulario--letra;
-            font-size: 0.9rem;
-            margin-bottom: 12.3rem;
-            margin-top: 1rem;
 
-            .comentarios {
-                padding-top: 0.8rem;
-                padding-bottom: 0.8rem;
-                color: rgb(211, 211, 211);
+    .row 
+    {
+        .col-lg-4 
+        {
+            .formulario {
+                border: solid 0.5rem $color__formulario;
+                border-radius:$border-radius;
+                background-color:$color__formulario;
+            /*     padding-right: 1rem;
+                padding-left: 1rem; */
+                color: $color__formulario--letra;
+                font-size: 0.9rem;
+                /* margin-bottom: 12.3rem;
+                margin-top: 1rem; */
+    
+                .comentarios {
+                    padding-top: 0.8rem;
+                    padding-bottom: 0.8rem;
+                    color: rgb(211, 211, 211);
+                }
+    
+                .boton {
+                    padding-top: 0.5rem;
+                    padding-bottom: 0.5rem;
+                    margin-bottom: 0.8rem;
+                    background-color:$color__boton;
+                    border:$color__boton;
+                    font-size: 0.8rem;
+                }
+    
+                .boton:hover
+                {
+                    background-color:$color__boton--hover;
+                    border:$color__boton--hover;
+                }
             }
+        }  
 
-            .boton {
-                padding-top: 0.5rem;
-                padding-bottom: 0.5rem;
-                margin-bottom: 0.8rem;
-                background-color:$color__boton;
-                border:$color__boton;
-                font-size: 0.8rem;
-            }
-
-            .boton:hover
+        .col-lg-6
+        {
+            padding-top: 1.1rem;
+            margin-left: 9rem;
+        .img
             {
-                background-color:$color__boton--hover;
-                border:$color__boton--hover;
+                width: 32rem;
+                height:16.7rem; 
+                border-radius: $border-radius;
             }
+        /* .img:hover
+        {
+            box-shadow: 0px 10px 10px -6px black;
+        }   */  
+            .suscr
+                {
+                    position: absolute;
+                    bottom: 14em;
+                    right:11em;
+                }
+                .botonS {
+                    background-color:$color__botonS;
+                    border:$color__botonS;
+                    font-size: 0.8rem;
+                    position: absolute;
+                    bottom: 14em;
+                    right:17em;
+                }
+                .botonS:hover
+                {
+                    box-shadow: 0px 10px 10px -6px white;
+                    background-color:$color__botonS--hover;
+                    border:$color__botonS--hover;
+                }
         }
     }
-}
+

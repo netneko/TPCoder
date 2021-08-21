@@ -95,7 +95,7 @@ $color__boton--hover:#60879e; */
         color: $color_subtitulos;
         font-size: 1.3rem;
         text-align:center;
-        margin: 1rem 0.7rem 0 0;
+        margin: 1rem 0.7rem 0.5rem 0;
     }
     
 }
@@ -120,4 +120,33 @@ $color__boton--hover:#60879e; */
     {
         display:none;
     }
+
+    .row
+    {
+        .col-lg-6
+        {
+            padding-top: 1.1rem;
+            margin-left: 9rem;
+        .img
+            {
+                width: 32rem;
+                height:16.7rem; 
+            }
+            .suscr
+                {
+                    position: absolute;
+                    bottom: 14em;
+                    right:11em;
+                }
+                .botonS {
+                    background-color:$color_titulos;
+                    border:$color__boton;
+                    font-size: 0.8rem;
+                    position: absolute;
+                    bottom: 14em;
+                    right:17em;
+                }
+        }
+    }
+    
 }
