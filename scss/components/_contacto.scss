@@ -9,10 +9,11 @@ $border-radius:2%;
 
 
 .tituloContacto{
-    color: $color_titulos;
+    color: $color_titulos; 
     font-size: 1.4rem;
     text-align: left;
     margin: 4rem 0.7rem 0 5rem;
+    /* NECESITO VER SI ESTO SE PASA */
 } 
 
 h2{
@@ -22,10 +23,7 @@ h2{
     margin: 1rem 0.7rem 0 5rem;
 }
 
-/*------------------------------------------------FORMULARIO--------------------------------------------------------*/
-
-
-
+/*------------------------------------------------FORMULARIO y BANNER--------------------------------------------------------*/
     .row 
     {
         .col-lg-4 
@@ -37,7 +35,7 @@ h2{
             /*     padding-right: 1rem;
                 padding-left: 1rem; */
                 color: $color__formulario--letra;
-                font-size: 0.9rem;
+                font-size:0.9rem;
                 /* margin-bottom: 12.3rem;
                 margin-top: 1rem; */
     
@@ -68,28 +66,24 @@ h2{
         {
             padding-top: 1.1rem;
             margin-left: 9rem;
-        .img
+        .img /* Imagen de suscribe */
             {
-                width: 32rem;
+                width: 32rem; //32
                 height:16.7rem; 
                 border-radius: $border-radius;
             }
-        /* .img:hover
-        {
-            box-shadow: 0px 10px 10px -6px black;
-        }   */  
-            .suscr
+            .suscr /* Input de suscribe */
                 {
-                    position: absolute;
-                    bottom: 14em;
+                    position: relative;
+                    bottom:40em;
                     right:11em;
                 }
-                .botonS {
+                .botonS { /* boton de suscribe */
                     background-color:$color__botonS;
                     border:$color__botonS;
                     font-size: 0.8rem;
                     position: absolute;
-                    bottom: 14em;
+                    bottom: 20em;
                     right:17em;
                 }
                 .botonS:hover
