@@ -1,3 +1,4 @@
+/* Esto es el codigo de la navbar para todas las paginas */
 .container-fluid {
 	display: flex;
 	justify-content: space-evenly;
@@ -11,8 +12,25 @@
 	.navbar-nav {
 		.nav-link {
 			color:$color_navbar_links;
+			display: inline-block;
+			position: relative;
 		}
-	}
+		.nav-link::after
+		{
+			content: "";
+			display: block;
+			margin: auto;
+			height: 2px;
+			width: 0px;
+			transition: all .8s;
+		}
+		.nav-link:hover:after
+		{
+			color:$color_navbar_links--hover;
+			width: 100%;
+			background:$color_navbar_links--hover;
+		}
+	} 
 }
 .navbar-brand {
 	img {
