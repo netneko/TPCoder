@@ -11,7 +11,7 @@ $border-radius:2%;
 .tituloContacto{
     color: $color_titulos; 
     font-size: 1.4rem;
-    text-align: left;
+    text-align: center;
     margin: 4rem 0.7rem 0 5rem;
     /* NECESITO VER SI ESTO SE PASA */
 } 
@@ -28,16 +28,14 @@ h2{
     {
         .col-lg-4 
         {
-            .formulario {
+            .formulario 
+            {
                 border: solid 0.5rem $color__formulario;
                 border-radius:$border-radius;
                 background-color:$color__formulario;
-            /*     padding-right: 1rem;
-                padding-left: 1rem; */
                 color: $color__formulario--letra;
                 font-size:0.9rem;
-                /* margin-bottom: 12.3rem;
-                margin-top: 1rem; */
+                align-items: center;
     
                 .comentarios {
                     padding-top: 0.8rem;
@@ -66,32 +64,13 @@ h2{
         {
             padding-top: 1.1rem;
             margin-left: 9rem;
-        .img /* Imagen de suscribe */
+        .img 
             {
-                width: 32rem; //32
+                width: 32rem;
                 height:16.7rem; 
                 border-radius: $border-radius;
             }
-            .suscr /* Input de suscribe */
-                {
-                    position: relative;
-                    bottom:40em;
-                    right:11em;
-                }
-                .botonS { /* boton de suscribe */
-                    background-color:$color__botonS;
-                    border:$color__botonS;
-                    font-size: 0.8rem;
-                    position: absolute;
-                    bottom: 20em;
-                    right:17em;
-                }
-                .botonS:hover
-                {
-                    box-shadow: 0px 10px 10px -6px white;
-                    background-color:$color__botonS--hover;
-                    border:$color__botonS--hover;
-                }
+            
         }
     }
 
