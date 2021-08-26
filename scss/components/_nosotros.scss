@@ -1,9 +1,10 @@
 /* NOSOTROS */
-.containerFoto
+.container
 {
     .img-fluid 
     {
-        @include sizesImg(100%,36rem);
+        @include sizesImg(100%,30rem);
+        border-radius:$border-radius;
     }
 }
 
