@@ -3,8 +3,10 @@
 {
     .img-fluid 
     {
-        @include sizesImg(100%,30rem);
-        border-radius:$border-radius;
+        @include sizesImg(100%,34rem);
+        //width: 100%;
+        //height: 34rem;
+        border-radius:2%;
     }
 }
 
@@ -19,5 +21,42 @@
 .textoNosotros 
 {
     @extend %texto;
-    margin: 1.5rem 4rem 2rem 4rem;
+    margin: 1.5rem 4rem 0.5rem 4rem;
+    padding-bottom: 1.3rem;
+}
+
+.tituloOPiniones
+{
+    color:$color_titulos;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 0.5rem 4rem 0.8rem 4rem;
+}
+
+.containerOp
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0.5rem 0.5rem 2rem 0.5rem;
+}
+.opi
+{
+    border: solid 0.1px rgb(204, 201, 201);
+    background-color: white;
+    padding:0.5rem;
+    margin: 0.5rem 0.5rem;
+    -webkit-box-shadow: -1px 17px 19px -1px rgba(163,163,163,0.9); 
+    box-shadow: -1px 17px 19px -1px rgba(163,163,163,0.9);
+    h3
+    {
+        font-size: 1rem;
+        color: $color_titulos;
+    }
+    p
+    {
+        font-size: 0.9rem;
+        display: block;
+        color: $color_subtitulos;
+    }
 }

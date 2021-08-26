@@ -1,84 +1,71 @@
 /* ------------------------------MEDIA QUERIES ---------------------------------------- */
 
 /* --------------DESKTOP----------------------*/
-@media (max-width:1440px) and (min-width:1025px) 
-{
+@media (max-width:1440px) and (min-width:1025px) {
 
-    .tituloNosotros 
-    {
-        color:$color_titulos;
+    .tituloNosotros {
+        color: $color_titulos;
         margin-top: 0.8rem;
         margin-bottom: 1rem;
         text-align: center;
-        padding-top: 0.7rem;
+        padding-top: 0;
         font-size: 1.6rem;
     }
 
-    .textoNosotros 
-    {
-        color:$color_subtitulos;
-        text-align: center;
-        font-size: 1.2rem;
-        margin: 1.5rem 4rem 5rem 4rem;
-    }
-    .containerFoto
-    {
-        .img-fluid
-        {
-            @include sizesImg(100%,28rem);
+    .container {
+        .img-fluid {
+            @include sizesImg(100%, 28rem);
         }
     }
 }
 
 /* --------------TABLET----------------------- */
-@media (max-width: 768px) and (min-width: 425px) 
-{
+@media (max-width: 768px) and (min-width: 425px) {
 
-    .textoNosotros 
-    {
-        color:$color_subtitulos;
+    .textoNosotros {
+        color: $color_subtitulos;
         text-align: center;
         font-size: 1.2rem;
         margin: 1.5rem 3rem 5rem 3rem;
         padding-top: 0.7rem;
     }
 
-    .containerFoto
-    {
-        .img-fluid
-        {
-            @include sizesImg(100%,28rem);
+    .container {
+        .img-fluid {
+            @include sizesImg(100%, 28rem);
         }
     }
 }
 
 /* --------------CELULAR---------------------- */
-@media (max-width:375px) and (min-width:320px)
-{
-    .tituloNosotros 
-    { 
+@media (max-width:375px) and (min-width:320px) {
+    .tituloNosotros {
         font-size: 1.8rem;
-        color:$color_titulos;
+        color: $color_titulos;
         margin-top: 0.8rem;
         margin-bottom: 1rem;
         text-align: center;
         padding-top: 0.7rem;
     }
 
-    .textoNosotros 
-    {
-        color:$color_subtitulos;
+    .textoNosotros {
+        color: $color_subtitulos;
         text-align: center;
         font-size: 1.1rem;
         margin: 1.5rem 2rem 5rem 2rem;
     }
 
-    .containerFoto
-    {
-        .img-fluid
-        {
-            @include sizesImg(100%,20rem);
+    .containerOp {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0.5rem 0.5rem 2rem 0.5rem;
+    }
+
+    .container {
+        .img-fluid {
+            @include sizesImg(100%, 20rem);
         }
     }
-    
+
 }
