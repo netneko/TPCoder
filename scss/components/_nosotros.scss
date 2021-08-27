@@ -1,8 +1,11 @@
 /* NOSOTROS */
-.container {
-    .img-fluid {
-        @include sizesImg(100%, 34rem);
-        border-radius: 2%;
+.container 
+{
+    .img-fluid 
+    {
+        @include sizesImg(100%,34rem);
+        border-radius:$border-radius;
+        border: solid 1 px red;
     }
 }
 
@@ -15,7 +18,7 @@
 }
 
 .textoNosotros {
-    @extend %texto;
+    @extend %texto; 
     margin: 1.5rem 4rem 0.5rem 4rem;
     padding-bottom: 1.3rem;
 }
