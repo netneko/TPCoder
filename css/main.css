@@ -937,7 +937,7 @@ $color__boton--hover:#60879e; */
       width: 22rem;
       height: 16.7rem; } }
 
-.imgNF {
+.img-fluid {
   width: 35rem;
   height: auto;
   display: block;
