@@ -3,6 +3,7 @@
 $size in (h1: 1.4rem) {
     #{$header} {
         font-size: $size;
+        color:$color_titulos;
     }
 }
 

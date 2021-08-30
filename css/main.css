@@ -58,9 +58,9 @@ footer {
   footer .redesSociales {
     display: flex;
     justify-content: flex-end;
-    margin-right: 1rem; }
+    margin-right: 0.3rem; }
     footer .redesSociales .redes {
-      font-size: 1rem; }
+      font-size: 0.9rem; }
     footer .redesSociales a {
       display: inline-block;
       padding: 0.1rem; }
@@ -69,9 +69,9 @@ footer {
       height: 1.2em;
       margin: -1px 0px 2px 1px; }
   footer .frase {
-    font-size: 1rem; }
+    font-size: 0.9rem; }
   footer .copy {
-    font-size: 1rem; }
+    font-size: 0.9rem; }
 
 .carrousel .container {
   display: block;
@@ -82,7 +82,8 @@ footer {
 
 /* -------------OPERACIONES---------------- */
 h1 {
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  color: #0B4666; }
 
 .textoMain, .textoIdeas, .textoNosotros {
   font-size: 1.2rem;
@@ -187,8 +188,7 @@ h1 {
 .container .img-fluid {
   width: 100%;
   height: 34rem;
-  border-radius: 2%;
-  border: solid 1 px red; }
+  border-radius: 2%; }
 
 .tituloNosotros {
   color: #0B4666;
@@ -936,3 +936,7 @@ $color__boton--hover:#60879e; */
     .row .col-lg-6 .img {
       width: 22rem;
       height: 16.7rem; } }
+
+.img-fluid {
+  width: 10rem;
+  height: 10rem; }
