@@ -1,4 +1,26 @@
-.img-fluid
+.imgNF
 {
-    @include sizesImg(10rem,10rem);
+    @include sizesImg(35rem,auto);
+    display: block;
+    margin: 1.5rem auto 2rem auto;
+    border-radius:$border-radius;
+}
+
+.contact
+{
+    text-decoration: none;
+    color:$color_titulos;
+}
+
+.home
+{
+    text-decoration: none;
+    color:$color_subtitulos;
+}
+.return
+{
+    text-align: center;
+    color: $color_titulos;
+    font-size: 1.4rem;
+    margin-top: 1rem;
 }

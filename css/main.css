@@ -937,6 +937,23 @@ $color__boton--hover:#60879e; */
       width: 22rem;
       height: 16.7rem; } }
 
-.img-fluid {
-  width: 10rem;
-  height: 10rem; }
+.imgNF {
+  width: 35rem;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto 2rem auto;
+  border-radius: 2%; }
+
+.contact {
+  text-decoration: none;
+  color: #0B4666; }
+
+.home {
+  text-decoration: none;
+  color: #597c8f; }
+
+.return {
+  text-align: center;
+  color: #0B4666;
+  font-size: 1.4rem;
+  margin-top: 1rem; }
