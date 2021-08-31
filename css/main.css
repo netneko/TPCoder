@@ -93,17 +93,26 @@ h1 {
 h1 {
   padding-top: 1rem;
   margin-top: 1.3rem;
-  padding-top: 0.7rem; }
-
-h2 {
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 3rem; }
+  padding-top: 0.9rem; }
 
 .textoMain {
-  padding: 1rem;
-  margin-top: 0.2rem;
-  margin-bottom: 1rem; }
+  padding: 0.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
+
+.box {
+  font-size: 1rem;
+  margin: 1rem 5rem 4rem 5rem;
+  padding: 1%;
+  color: whitesmoke;
+  background-color: #59849b;
+  border-color: #59849b;
+  display: block;
+  text-align: center;
+  font-style: italic; }
+  .box a {
+    text-decoration: none;
+    color: whitesmoke; }
 
 .tituloContacto {
   color: #0B4666;
@@ -144,7 +153,7 @@ h2 {
 .row .col-lg-6 {
   padding-top: 1.9rem;
   margin-left: 9rem; }
-  .row .col-lg-6 .img-fluid {
+  .row .col-lg-6 .imgSuscribe {
     width: 100%;
     height: auto;
     margin: 0;
@@ -327,11 +336,11 @@ h1 {
   h1 {
     color: #0B4666;
     padding-top: 1rem;
-    margin: 2rem 0.7rem 1rem 0.7rem;
+    margin: 2rem 0.7rem 0.5rem 0.7rem;
     font-size: 1.5rem;
     text-align: center; }
   .textoMain {
-    padding: 2.5rem;
+    padding: 2rem;
     color: #437194;
     margin-top: 1em;
     margin-bottom: 0em;
@@ -938,7 +947,7 @@ $color__boton--hover:#60879e; */
       width: 22rem;
       height: 16.7rem; } }
 
-.img-fluid {
+.img404 {
   width: 35rem;
   height: auto;
   display: block;

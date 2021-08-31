@@ -1,19 +1,33 @@
+$color__textArea:#59849b;
+$color__textArea--hover:#265672;
 h1 {
     padding-top: 1rem;
     margin-top: 1.3rem;
-    padding-top: 0.7rem;
-}
-
-h2 {
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    padding-top: 0.9rem;
 }
 
 
 .textoMain {
-    padding: 1rem;
-    margin-top: 0.2rem;
-    margin-bottom: 1rem;
+    padding:0.5rem;
+    margin-top:0;
+    margin-bottom:0.5rem;
     @extend %texto;
+}
+
+.box
+{
+    font-size: 1rem;
+    margin: 1rem 5rem 4rem 5rem;
+    padding: 1%;
+    color:whitesmoke;
+    background-color: $color__textArea;
+    border-color: $color__textArea;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    a
+    {
+        text-decoration: none;
+        color: whitesmoke;
+    }
 }
