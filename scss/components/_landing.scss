@@ -17,7 +17,7 @@ h1 {
 .box
 {
     font-size: 1rem;
-    margin: 1rem 5rem 4rem 5rem;
+    margin: 2rem 7rem 3rem 7rem;
     padding: 1%;
     color:whitesmoke;
     background-color: $color__textArea;
@@ -29,5 +29,13 @@ h1 {
     {
         text-decoration: none;
         color: whitesmoke;
-    }
+    }  
+}
+
+.box:hover
+{
+    padding:3%;
+    background-color: rgb(120, 173, 194);
+    color: white;
+    font-size: 1.1rem;
 }

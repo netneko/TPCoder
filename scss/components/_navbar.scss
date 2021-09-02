@@ -15,6 +15,7 @@
 			display: inline-block;
 			position: relative;
 		}
+		/* Efecto subrayado hover */
 		.nav-link::after
 		{
 			content: "";
@@ -32,6 +33,7 @@
 		}
 	} 
 }
+/* LOGO del navbar */
 .navbar-brand {
 	img {
 		@include sizesImg(8em,3em);

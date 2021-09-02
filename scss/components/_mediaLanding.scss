@@ -65,7 +65,7 @@
     h1 {
         color: $color_titulos;
         padding-top: 1rem;
-        margin: 2rem 0.7rem 0.8rem 0.7rem;
+        margin: 2rem 0.7rem 0.5rem 0.7rem;
         font-size: 1.8rem;
         text-align: center;
     }
@@ -73,10 +73,36 @@
     .textoMain {
         padding: 2.5rem;
         color: $color_texto;
-        margin-top: 1.5em;
-        margin-bottom: 0em;
+        margin-top: 1rem;
+        margin-bottom: 0;
         font-size: 1.5rem;
         text-align: center;
+    }
+
+    .box
+    {
+        font-size: 1rem;
+        margin: 2rem 7rem 3rem 7rem;
+        padding: 3%;
+        color:whitesmoke;
+        background-color: $color__textArea;
+        border-color: $color__textArea;
+        display: block;
+        text-align: center;
+        font-style: italic;
+        a
+        {
+            text-decoration: none;
+            color: whitesmoke;
+        }  
+    }
+
+    .box:hover
+    {
+        padding:5%;
+        background-color: rgb(120, 173, 194);
+        color: white;
+        font-size: 1.1rem;
     }
 
     footer 
@@ -141,12 +167,37 @@
 
     .textoMain 
     {
-        padding: 2.5rem;
+        padding: 1.5rem;
         color:$color_texto;
-        margin-top: 1.5em;
+        margin-top: 1rem;
         margin-bottom: 0em;
         font-size: 1.5rem;
         text-align: center;
+    }
+    .box
+    {
+        font-size: 1rem;
+        margin: 1rem 3rem 2rem 3rem;
+        padding: 3%;
+        color:whitesmoke;
+        background-color: $color__textArea;
+        border-color: $color__textArea;
+        display: block;
+        text-align: center;
+        font-style: italic;
+        a
+        {
+            text-decoration: none;
+            color: whitesmoke;
+        }  
+    }
+
+    .box:hover
+    {
+        padding:4%;
+        background-color: rgb(120, 173, 194);
+        color: white;
+        font-size: 1.1rem;
     }
 
     footer {
