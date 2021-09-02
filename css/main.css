@@ -61,14 +61,16 @@ footer {
     justify-content: flex-end;
     margin-right: 0.3rem; }
     footer .redesSociales .redes {
-      font-size: 0.9rem; }
+      font-size: 0.9rem;
+      padding: 0;
+      margin: 0 0.5rem 0 0; }
     footer .redesSociales a {
       display: inline-block;
       padding: 0.1rem; }
     footer .redesSociales img {
       width: 1.2em;
       height: 1.2em;
-      margin: -1px 0px 2px 1px; }
+      margin: -2px 0px 7px 1px; }
   footer .frase {
     font-size: 0.9rem; }
   footer .copy {
@@ -353,6 +355,24 @@ h1 {
     margin-bottom: 0em;
     font-size: 1.3rem;
     text-align: center; }
+  .box {
+    font-size: 1rem;
+    margin: 2rem 7rem 3rem 7rem;
+    padding: 1%;
+    color: whitesmoke;
+    background-color: #59849b;
+    border-color: #59849b;
+    display: block;
+    text-align: center;
+    font-style: italic; }
+    .box a {
+      text-decoration: none;
+      color: whitesmoke; }
+  .box:hover {
+    padding: 3%;
+    background-color: #78adc2;
+    color: white;
+    font-size: 1.1rem; }
   footer {
     display: flex;
     flex-direction: row-reverse;
@@ -415,7 +435,7 @@ h1 {
   footer {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #437194;
     color: #D8E2E7;
     padding: 1rem 0rem 0rem 0rem;
@@ -428,7 +448,8 @@ h1 {
       margin-right: 1rem;
       font-size: 0.8rem; }
       footer .redesSociales .redes {
-        display: none; }
+        font-size: 1rem;
+        margin: 0 0.5rem 0 0.8rem; }
       footer .redesSociales a {
         display: inline-block;
         padding: 0.1rem; }
@@ -438,9 +459,9 @@ h1 {
           margin: -1px 0px 2px 1px; }
     footer .copy {
       margin-bottom: 1rem;
-      font-size: 0.8rem; }
+      font-size: 1rem; }
     footer .frase {
-      font-size: 0.8rem; } }
+      display: none; } }
 
 /* ---------------------MOBILE S-----------------------------*/
 @media (max-width: 375px) and (min-width: 320px) {
