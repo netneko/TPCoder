@@ -114,11 +114,10 @@ h1 {
   text-align: center;
   font-style: italic; }
   .box a {
-    text-decoration: none;
     color: whitesmoke; }
 
 .box:hover {
-  padding: 3%;
+  padding: 2%;
   background-color: #78adc2;
   color: white;
   font-size: 1.1rem; }
