@@ -1,10 +1,12 @@
-.img404
+
+.container404
 {
-    @include sizesImg(35rem,auto);
-    display: block;
-    margin: 1.5rem auto 2rem auto;
-    border-radius:$border-radius;
+.img-fluid
+    {
+        @include sizesImg(100%,34rem);
+    }
 }
+
 
 .contact
 {

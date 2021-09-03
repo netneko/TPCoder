@@ -19,11 +19,15 @@ h1 {
     margin-bottom: 4rem;
 }
 
-
-.img-fluid
+/* Foto productos */
+.containerFotoP
 {
-    @include sizesImg(100%,auto);
+    .img-fluid
+    {
+        @include sizesImg(100%,auto);
+    }
 }
+
 
 /*Esto es para el overlay de las fotos*/
 /* Uso flex para alinear como fila todo lo que esta aca adentro */

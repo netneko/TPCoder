@@ -39,10 +39,9 @@ h1 {
         }
         .image-container {
             position: relative;
-            /* width: 200px;
-            height: 300px; */
         }
-        .image-container .after {
+        .image-container .after 
+        {
             position: absolute;
             top: 0;
             left: 0;
@@ -52,7 +51,6 @@ h1 {
             color: #FFF;
             text-align: center;
             font-size: 1.3rem;
-           // margin: 0.2rem 0.5rem 0 0.5rem;
         }
         .image-container:hover .after {
             display: block;

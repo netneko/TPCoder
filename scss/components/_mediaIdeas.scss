@@ -44,10 +44,51 @@
 /* --------------TABLET----------------------- */
 @media (max-width: 768px) and (min-width: 425px) 
 {
-    .image-container .after 
+    .grid-container 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 0.1em;
+    padding: 0.1rem;
+    grid-auto-flow: dense;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    .grid-item 
     {
-        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 0.5px white;
+        
+        img 
+        {
+            @include sizesImg(100%,auto);
+        }
+        .image-container {
+            position: relative;
+        }
+        .image-container .after 
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: none;
+            color: #FFF;
+            text-align: center;
+            font-size: 1.4rem;
+        }
+        .image-container:hover .after {
+            display: block;
+            background: rgba(0, 0, 0, .6);
+        }
+        
     }
+}
 }
 
 /* --------------CELULAR---------------------- */
@@ -59,10 +100,51 @@
         font-size: 1.4rem;
         margin: 1.5rem 0 1rem 0;
     }
-    .image-container .after 
+    .grid-container 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 0.1em;
+    padding: 0.1rem;
+    grid-auto-flow: dense;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    .grid-item 
     {
-        font-size:2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 0.5px white;
+        
+        img 
+        {
+            @include sizesImg(100%,auto);
+        }
+        .image-container {
+            position: relative;
+        }
+        .image-container .after 
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: none;
+            color: #FFF;
+            text-align: center;
+            font-size: 2rem;
+        }
+        .image-container:hover .after {
+            display: block;
+            background: rgba(0, 0, 0, .6);
+        }
+        
     }
+}
     .frase
     {
         display:none;

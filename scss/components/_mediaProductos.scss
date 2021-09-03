@@ -250,11 +250,23 @@ $color_texto:#437194; */
 
 @media (max-width:375px) and (min-width:320px) {
 
+    /* Foto productos */
+    .container 
+    {
+        .img-fluid 
+        {
+            @include sizesImg(100%,34rem);
+            border-radius:$border-radius;
+        }
+    }
+
+
+
     h1 {
         color:$color_titulos;
         font-size: 1.5rem;
         text-align: center;
-        margin: 2rem 1rem 0 1rem;
+        margin: 0 1rem 0 1rem;
     }
 
 

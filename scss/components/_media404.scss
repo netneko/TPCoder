@@ -33,14 +33,14 @@
 
     .texto404
     {
-        margin: 1rem 1rem 1rem 1rem;
+        margin: 1rem 1rem 0.5rem 1rem;
     }
-    .img-fluid
-    {
-        @include sizesImg(20rem,20rem);
-        display: block;
-        margin: 1.5rem auto 2rem auto;
-        border-radius:$border-radius;
+
+    .container404 {
+        .img-fluid {
+            @include sizesImg(100%, 20rem);
+        }
+        margin-top: 0;
     }
     .returnHome
     {
