@@ -189,7 +189,8 @@ h1 {
   grid-auto-flow: dense;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  overflow: hidden; }
   .grid-container .grid-item {
     display: flex;
     align-items: center;
@@ -198,9 +199,23 @@ h1 {
     .grid-container .grid-item img {
       width: 100%;
       height: auto; }
-    .grid-container .grid-item img:hover {
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1); }
+    .grid-container .grid-item .image-container {
+      position: relative;
+      /* width: 200px;
+            height: 300px; */ }
+    .grid-container .grid-item .image-container .after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+      color: #FFF;
+      text-align: center;
+      font-size: 0.9rem; }
+    .grid-container .grid-item .image-container:hover .after {
+      display: block;
+      background: rgba(0, 0, 0, 0.6); }
 
 /* NOSOTROS */
 .container .img-fluid {
