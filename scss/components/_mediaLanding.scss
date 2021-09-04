@@ -177,7 +177,8 @@
     }
 }
 /* ---------------------MOBILE S-----------------------------*/
-@media (max-width:375px) and (min-width:320px) {
+@media (max-width:375px) and (min-width:320px) 
+{
     .container-fluid {
         display: flex;
         justify-content: space-evenly;
