@@ -1,16 +1,3 @@
-/* $color__overlay--letra:white;
-$color__textArea:#59849b;
-$color__textArea--hover:#265672;
-$color__textAreaB--hover:#265672;
-$color__link--hover:#90b8d4;
-$color_fondo:#f8f9fa;
-$color_navbar:#f8f9fa;
-$color_navbar_links:#0B4666;
-$color_footer:#437194;
-$color_footer_texto:#D8E2E7;
-$color_titulos:#0B4666;
-$color_subtitulos:#597c8f;
-$color_texto:#437194; */
 
 /* ------------------------------MEDIA QUERIES ---------------------------------------- */
 
@@ -247,8 +234,7 @@ $color_texto:#437194; */
     
 }
 /*----------------------- CELULAR-------------------------------------------*/
-
-@media (max-width:375px) and (min-width:320px) {
+@media (max-width:411px) and (min-width:320px) {
 
     /* Foto productos */
     .container 

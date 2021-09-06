@@ -1,8 +1,3 @@
-/* $color__formulario:#628eac;
-$color__formulario--letra:whitesmoke;
-$color__textArea--fondo:rgb(211, 211, 211);
-$color__boton:#4d7891;
-$color__boton--hover:#60879e; */
 /* ------------------------------MEDIA QUERIES ---------------------------------------- */
 /* --------------DESKTOP----------------------*/
 @media (max-width:1440px) and (min-width:1025px) 
@@ -178,7 +173,7 @@ $color__boton--hover:#60879e; */
 }
 
 /* --------------CELULAR---------------------- */
-@media (max-width:375px) and (min-width:320px)
+@media (max-width:411px) and (min-width:320px)
 {
     .tituloContacto{
         color: $color_titulos;
